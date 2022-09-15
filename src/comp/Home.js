@@ -1,20 +1,15 @@
 import React from "react";
-import Search from "./Search"
+import Search from "./Search";
+import Cards from "./Cards"
 
 
 function Home() {
   return (
-
-      <>
+    <>
       <Search></Search>
-      <h4>Search</h4>
-      </>
-
-  )
-
- 
-
-
+      <Cards></Cards>
+    </>
+  );
 }
 
 export default Home;

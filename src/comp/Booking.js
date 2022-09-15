@@ -6,8 +6,9 @@ import Cards from "./Cards"
 function Booking() {
   return ( 
       <>
+        
         <Cards></Cards>
-        <Cards></Cards>
+     
       </>
    );
 }
