@@ -1,3 +1,8 @@
 .active{
   color:red;
 }
+
+
+li{
+  list-style-type: none;
+}

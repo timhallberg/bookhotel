@@ -1,7 +1,15 @@
 import React from "react";
+import Cards from "./Cards"
+
+
 
 function Booking() {
-  return <p>Booking site</p>;
+  return ( 
+      <>
+        <Cards></Cards>
+        <Cards></Cards>
+      </>
+   );
 }
 
 export default Booking;
