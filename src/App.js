@@ -4,7 +4,7 @@ import Search from "./comp/Search";
 import Booking from "./comp/Booking";
 import TripCategori from "./comp/TripCategori";
 import Stars from "./comp/Stars";
-import { Link, Route, Routes } from "react-router-dom";
+import { NavLink, Route, Routes } from "react-router-dom";
 import Home from "./comp/Home";
 import About from "./comp/About";
 
@@ -13,18 +13,24 @@ function App() {
     <div className="App">
       <nav>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink ClassName="active" to="/home">
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/booking">Booking</Link>
+          <NavLink ClassName="active" to="/booking">
+            Booking
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink ClassName="active" to="/about">
+            About
+          </NavLink>
         </li>
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/about" element={<About />} />
       </Routes>
