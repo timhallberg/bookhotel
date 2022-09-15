@@ -1,19 +1,15 @@
-import "./App.css";
-import Header from "./comp/Header";
-import Search from "./comp/Search";
-// import Booking from "./comp/Booking";
-import Router from "./comp/Router" 
-import TripCategori from "./comp/TripCategori";
-import Stars from "./comp/Stars";
-// import { NavLink, Route, Routes } from "react-router-dom";
-// import Home from "./comp/Home";
-// import About from "./comp/About";
+import React from "react";
+import { NavLink, Route, Routes } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
+import Booking from "./Booking";
 
-function App() {
+function Router() {
   return (
-    <div className="App">
-      {/* <nav>
+    <>
+      <nav>
         <li>
+          {/* Varning för ClassName men annars fungerar inte active. Vi får kika på det. */}
           <NavLink ClassName="active" to="/home">
             Home
           </NavLink>
@@ -34,14 +30,9 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/about" element={<About />} />
-      </Routes> */}
-
-      <Router></Router>
-
-     
- 
-    </div>
+      </Routes>
+    </>
   );
 }
 
-export default App;
+export default Router;
