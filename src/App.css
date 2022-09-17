@@ -3,7 +3,6 @@
   margin: 0;
 }
 
-
 li {
   list-style-type: none;
   text-decoration: none;
@@ -13,34 +12,28 @@ li {
   margin: 0px;
 }
 
-
-
 .navSection {
   height: 70px;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .navBar {
-
   width: 100%;
   max-width: 930px;
   height: 70px;
-  
 }
 
 .Brand {
   height: 50px;
-
 }
 
 .Brandbox {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width:100%;
+  width: 100%;
   position: relative;
 }
 
@@ -65,23 +58,17 @@ li {
   align-items: center;
 }
 
-
 section {
   width: 100vw;
   display: flex;
   justify-content: center;
 }
 
-.Main{
+.Main {
   max-width: 930px;
   width: 100%;
 }
 
-
-
-
-
 .btn-outline-secondary {
   --bs-btn-hover-color: black;
-
 }

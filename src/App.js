@@ -1,17 +1,13 @@
 import "./App.css";
 import Header from "./comp/Header";
 import Router from "./comp/Router";
-import Hero from "./comp/Hero"
+import Hero from "./comp/Hero";
 import { NavLink } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header>
-    
-      </Header>
-
-
+      <Header></Header>
 
       <Hero></Hero>
       <section>

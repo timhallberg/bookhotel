@@ -29,8 +29,17 @@ function Search() {
           aria-label="Username"
           aria-describedby="basic-addon1"
         />
+
+        <Form.Control
+          style={{ color: "#FF8C8C", height: "60px" }}
+          placeholder="Antal personer?"
+          type="number"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+        />
+
         <Button
-        className="Searchbutton"
+          className="Searchbutton"
           style={{ backgroundColor: "white", borderColor: "#ced4da" }}
           variant="outline-secondary"
           id="button-addon2"
