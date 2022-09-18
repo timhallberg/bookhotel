@@ -1,13 +1,12 @@
 import React from "react";
 import Search from "./Search";
-import Cards from "./Cards"
-
+import Cards from "./Cards";
 
 function Home() {
   return (
     <>
-      <Search></Search>
-      <Cards></Cards>
+      <Search />
+      <Cards />
     </>
   );
 }
